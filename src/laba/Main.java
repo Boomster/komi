@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class Main {
 
     public static List <Integer> C_MADNESS(int n, Graph myG){
+        //the greatest change
         List<List<Double>> graph = myG.dist;
 
         List<List<Double>> PrimGraph = Prim(graph);
